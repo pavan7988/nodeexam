@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-crud-app",
+  "version": "1.0.0",
+  "description": "A Node.js application for managing users with CRUD operations using Express and MySQL.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.13.0",
+    "util": "^0.12.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
